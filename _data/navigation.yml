@@ -1,0 +1,32 @@
+# main links
+main:
+  - title: 'Home'
+    url: https://escJunior.github.io/
+
+  - title: 'About'
+    url: /about/
+
+  - title: 'GitHub'
+    url: https://github.com/escJunior
+
+  # - title: "Projects"
+  #   url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: 'JavaScript'
+    url: /categories/JavaScript/
+  - title: 'React'
+    url: /categories/React/
+  - title: 'iOS'
+    url: /categories/iOS/
+  - title: 'Data structure'
+    url: /categories/Data structure/
+  - title: 'Algorithm'
+    url: /categories/Algorithm/
+  - title: 'Dev env'
+    url: /categories/Dev env/
