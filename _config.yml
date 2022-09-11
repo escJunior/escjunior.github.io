@@ -56,8 +56,10 @@ reCaptcha:
 atom_feed:
   path: # blank (default) uses feed.xml
   hide: # true, false (default)
-search: # true, false (default)
+search: true # true, false (default)
 search_full_content: # true, false (default)
+lunr:
+  search_within_pages: true
 search_provider: # google
 algolia:
   application_id: # YOUR_APPLICATION_ID
@@ -206,11 +208,11 @@ sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# Outputting
+# Outputting(거주하는 곳 timezone 설정, 기본 설정 시간보다 미래면 포스팅 안되므로)
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:

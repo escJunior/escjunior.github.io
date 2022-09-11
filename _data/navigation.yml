@@ -19,14 +19,14 @@ main:
 # 2022.02.15 sidebar update : simple ver.
 categories:
   - title: 'JavaScript'
-    url: /categories/JavaScript/
+    url: /categories/javascript/
   - title: 'React'
-    url: /categories/React/
+    url: /categories/react/
   - title: 'iOS'
-    url: /categories/iOS/
-  - title: 'Data structure'
-    url: /categories/Data structure/
-  - title: 'Algorithm'
-    url: /categories/Algorithm/
+    url: /categories/ios/
+  - title: 'DA'
+    url: /categories/da/
+  - title: 'Algorithms'
+    url: /categories/algorithms/
   - title: 'Dev env'
-    url: /categories/Dev env/
+    url: /categories/dev-env/

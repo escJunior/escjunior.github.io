@@ -34,6 +34,13 @@ author:
   #   bio              : "hi all!"
   # location         : "Seoul, Korea"
   # email            : "youremailhere@xxxxxx.com"
+
+---
+# Outputting(거주하는 곳 timezone 설정, 기본 설정 시간보다 미래면 포스팅 안되므로)
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 ```
 
 ### ▪ favicon 변경
