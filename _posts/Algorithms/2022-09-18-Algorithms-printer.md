@@ -24,7 +24,6 @@ last_modified_at: 2022-09-18
 
 ### 입출력 예
 
-입출력 예
 priorities location return
 [2, 1, 3, 2] 2 1
 [1, 1, 9, 1, 1, 1] 0 5
