@@ -132,6 +132,45 @@ categories:
     url: /categories/categories4/
 ```
 
+### ▪ Prev / Next 같은 카테고리 내 이동(https://ansohxxn.github.io/blog/prevnext/ 참조)
+
+include 폴더의 post_pagination.html 수정
+
+```html
+<!--첫 번째 문단-->
+{% assign cat = page.categories[0] %} {% assign cat_list = site.categories[cat]
+%} {% for post in cat_list %} {% if post.url == page.url %} {% assign prevIndex
+= forloop.index0 | minus: 1 %} {% assign nextIndex = forloop.index0 | plus: 1 %}
+{% if forloop.first == false %} {% assign next_post = cat_list[prevIndex] %} {%
+endif %} {% if forloop.last == false %} {% assign prev_post =
+cat_list[nextIndex] %} {% endif %} {% break %} {% endif %} {% endfor %}
+
+<!--두 번째 문단-->
+{% if prev_post or next_post %}
+<nav class="pagination">
+  {% if prev_post %}
+  <a href="{{ prev_post.url }}" class="pagination--pager"
+    >{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous"
+    }}</a
+  >
+  {% else %}
+  <a href="#" class="pagination--pager disabled"
+    >{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous"
+    }}</a
+  >
+  {% endif %} {% if next_post %}
+  <a href="{{ next_post.url }}" class="pagination--pager"
+    >{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a
+  >
+  {% else %}
+  <a href="#" class="pagination--pager disabled"
+    >{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a
+  >
+  {% endif %}
+</nav>
+{% endif %}
+```
+
 ### ▪ 포스트 작성
 
 1. `_posts/YYYY-MM-DD-post-name-here.md` 파일 생성
