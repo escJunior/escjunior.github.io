@@ -1,11 +1,11 @@
 ---
 title: '[Algorithms] 프린터'
-excerpt: '큐'
+excerpt: 'Queue'
 
 categories:
   - Algorithms
 tags:
-  - [Algorithms]
+  - [Algorithms, Queue]
 
 permalink: /Algorithms/printer/
 

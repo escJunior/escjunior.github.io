@@ -5,7 +5,7 @@ excerpt: 'DFS / BFS'
 categories:
   - Algorithms
 tags:
-  - [Algorithms]
+  - [Algorithms, DFS / BFS]
 
 permalink: /Algorithms/target-number/
 

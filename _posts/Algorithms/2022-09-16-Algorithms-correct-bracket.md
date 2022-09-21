@@ -1,11 +1,11 @@
 ---
 title: '[Algorithms] 올바른 괄호'
-excerpt: '스택'
+excerpt: 'Stack'
 
 categories:
   - Algorithms
 tags:
-  - [Algorithms]
+  - [Algorithms, Stack]
 
 permalink: /Algorithms/correct-bracket/
 
