@@ -1,11 +1,11 @@
 ---
 title: '[Algorithms] 타겟 넘버'
-excerpt: 'DFS / BFS'
+excerpt: 'DFS'
 
 categories:
   - Algorithms
 tags:
-  - [Algorithms, DFS / BFS]
+  - [Algorithms, DFS]
 
 permalink: /Algorithms/target-number/
 
