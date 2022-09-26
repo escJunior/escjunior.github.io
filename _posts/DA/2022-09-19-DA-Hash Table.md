@@ -23,7 +23,7 @@ Hash Func: 입력받은 값을 특정 범위 내 숫자로 변경하는 함수
 Array, Map, Set 으로 표현 가능
 
 <img width='40%' src='https://user-images.githubusercontent.com/46982959/190913981-f1f0ceb4-b07a-436d-84dc-5cf8ef3aacbb.png'>
-<img width='40%' src='https://user-images.githubusercontent.com/46982959/190914003-d2fa003b-cce5-46b8-bedc-9e8d6c29566b.png'>
+<img width='40%' src='https://user-images.githubusercontent.com/46982959/192270694-db395a0b-76ca-407f-95ce-8bdbe6922ecc.png'>
 
 ### Code
 
