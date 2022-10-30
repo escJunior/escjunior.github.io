@@ -32,9 +32,15 @@ Native 단 UIImageView에 이벤트 이미지를 넣었다.
 
 이전 이미지가 보이는 이슈에 직면하였다. 같은 경로를 호출하기 때문이다.
 
-캐싱 때문에 웹소스 수정시 js, css에 쿼리스트링을 사용하는 것이랑 비슷하다.
+캐싱 때문에 웹소스 수정시 js, css에 쿼리스트링을 사용하는 것이 그 이유이다.
+<br/>
+<br/>
 
-여러 방법을 적용해봤지만 SDWebImage Lib 를 사용하여 해결하였다.
+### Image URL 호출시 파일명 뒤에 시간등의 쿼리스트링을 붙여 해결 가능
+
+test.co.kr/testImg.png?v=1030111111
+
+### SDWebImage Lib 를 사용하여 해결 가능
 
 1. Podfile에 pod 'SDWebImage','~> 5.0’ 추가
 2. terminal 에서 해당 프로젝트 폴더로 진입하여 pod update
