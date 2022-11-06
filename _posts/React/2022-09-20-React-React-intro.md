@@ -13,12 +13,12 @@ toc: true
 toc_sticky: true
 
 date: 2022-09-20
-last_modified_at: 2022-09-20
+last_modified_at: 2022-11-06
 ---
 
 ### React
 
-- **React란 User Interface를 만들 수 있는 Library, 사용자에게 보여지는 UI를 만들고 이에 대한 사용자의 클릭 또는 이벤트에 반응하도록 만들어진 Lib**
+- **React란 UI(User Interface)를 Components 단위로 보여주고 Event에 반응하도록 만들어 나가는 Library**
 - React는 components로 이루어진 UI Lib
 - 2013년 Face Book 에서 만들어짐
 - 페이지를 더 빠르고, 쉽고, 재사용 가능하도록 만들 수 있다.
@@ -28,10 +28,22 @@ last_modified_at: 2022-09-20
 
 ### 컴포넌트 구조
 
-```jsx
-import React, { Component } from 'react';
+- 데이터 내부 상태 State, 외부로 부터 전달받은 상태 Props, 나타내는 render로 구성
+- 상태가 변경될 때마다 re-render, 리액트의 Virtual DOM Tree, Previous DOM Tree 를 비교하여 DOM tree에 실제로 변경된 부분만 화면에 업데이트
+- 2019년 부터 함수형 컴포넌트를 많이 사용
 
-// 부모의 state가 변하면 자식의 render()가 호출
+```jsx
+// Function Copmonent
+// React Hooks 를 이용해 로직 재사용 가능
+function LikeButton(props) {
+  const [likes, setLikes] = useState(0);
+  return <button>{likes}</button>;
+}
+```
+
+```jsx
+// Class Component
+// 클래스의 어려움, this 바인딩 이슈, 로직들을 재사용하기 어려워 함수형 컴포넌트 사용
 class LikeButton extends Component {
   state = {
     numberOfLikes: 0, State
@@ -43,8 +55,6 @@ class LikeButton extends Component {
   }
 }
 ```
-
-- React는 Virtual DOM Tree와 previous Virtual DOM Tree와 비교하여 자식의 render()를 모두 호출하는게 아니라 계산하여 필요한 render()만 업데이트 한다.
 
 ### 추가내용
 
