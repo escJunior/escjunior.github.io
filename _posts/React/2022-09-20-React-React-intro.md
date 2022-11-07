@@ -77,9 +77,9 @@ class LikeButton extends Component {
 9. PostCSS  
    CSS 전처리기, 유용한 플러그인이 많아 강력하게 쓸 수 있다.
 10. nodeJS  
-    Javascript 프로그래밍, 실행을 가능하게 하는 framework
+    Browser 밖에서 JavaSript를 실행 가능하게 해주는 JavaScript 실행 환경(FrameWork)
 11. npm  
-    필요한 Lib를 쉽게 관리(설치, 버전 업데이트), package.jsons
+    필요한 Lib를 쉽게 관리(설치, 버전 업데이트), package.json
 12. npx  
     원하는 Lib또는 Package를 실행 할 수 있도록 함
 13. yarn  
