@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-09-20
-last_modified_at: 2022-11-06
+last_modified_at: 2022-11-09
 ---
 
 ### React
@@ -31,6 +31,7 @@ last_modified_at: 2022-11-06
 - 데이터 내부 상태 State, 외부로 부터 전달받은 상태 Props, 나타내는 render로 구성
 - 상태가 변경될 때마다 re-render, 리액트의 Virtual DOM Tree, Previous DOM Tree 를 비교하여 DOM tree에 실제로 변경된 부분만 화면에 업데이트
 - 2019년 부터 함수형 컴포넌트를 많이 사용
+- `React Hook은 재사용 가능한 함수이다! 즉, 리액트의 State와 Lifecycle에 관련된 기능들을 갈고리처럼 연결 할 수 있는 함수들이다. (Hooks are functions that let you "hook into" React state and lifecycle feature from function component.)`
 
 ```jsx
 // Function Copmonent
