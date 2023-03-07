@@ -62,3 +62,22 @@ export default App;
 1. Component는 하나의 태그만 반환 해야함 → 따라서 다수의 태그를 반환하고 싶다면 부모 태그로 감싸주어야 한다.<></>
 2. 태그에 클래스를 적용할 때는 className을 사용
 3. HTML부분에 자바스크립트 코드를 사용할 때는 {} 중괄호 사용
+
+### Component 만드는 팁
+
+1. global.code-snippets.json.code-snippets 에 해당 Snippet 입력
+
+```json
+"reactFunction": {
+  "prefix": "rfc",
+  "body": "import React from 'react';\n\nexport default function ${1:${TM_FILENAME_BASE}}() {\n\treturn (\n\t\t<div>\n\t\t\t\n\t\t</div>\n\t);\n}\n\n",
+  "description": "Creates a React Function component"
+},
+"reactStatelessImplicitReturn": {
+  "prefix": "rsi",
+  "body": "import React from 'react';\n\nexport const ${1:${TM_FILENAME_BASE}} = (props) => (\n\t\t\t$0\n\t);",
+  "description": "Creates a React Function component"
+}
+```
+
+2. rfc 또는 rfi 입력하면 컴포넌트 구조 자동완성!

@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-11-08
-last_modified_at: 2022-11-08
+last_modified_at: 2022-11-13
 ---
 
 ### React 환경설정
@@ -68,3 +68,4 @@ Create React App: [https://create-react-app.dev/](https://create-react-app.dev/
    HTML CSS Support  
    CSS Peek  
    Auto Rename Tag
+   Simple React Snippets - 키워드로 리액트 코드 완성
