@@ -61,7 +61,7 @@ Create React App: [https://create-react-app.dev/](https://create-react-app.dev/
    Auto Import: 다른 파일 Import 시 자동으로 완성  
    Material Theme: 테마적용  
    Material Icon Theme: 프로젝트의 파일 및 폴더 아이콘 테마  
-   Prittier - Code formatter: 코드를 포맷팅  
+   Prettier - Code formatter: 코드를 포맷팅  
    CSS Modules: PostCSS 관련  
    IntelliSense for CSS class names in HTML  
    HTML to CSS autocompletion  
